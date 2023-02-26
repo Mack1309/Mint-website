@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mint roofing</title>
+    <meta name="viewport" content="width=320, initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+    
+      header {
+        background: #fdf5e6;
+        height: 70px;
+        padding: 20px;
+        text-align: center;
+        font-size: 25px;
+      }
+      
+      ul {
+        margin: 0;
+        padding: 20px;
+        list-style-type: none;
+      }
+      
+      li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+          
+      nav ul li a {
+        color: #000;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+          
+      nav ul li a:hover {
+        color: green;          
+      }
+
+        
+      .first-image {
+        background-image: url("Mint logo2.jpg") no-repeat;
+        background-size: 100%;
+        background-position: center;
+        height: 300px;
+      }
+
+       .about-ipad {
+        display: none;
+      }
+
+      .about-desktop {
+        display: none;
+      }
+
+      .about-phone {
+        background: #FDF5E6;
+        padding: 20px;
+        display: block;
+      }
+      
+      .phone-header {
+        position: relative;
+        display: inline-block;
+        left: 30%;
+        font-size: 40px;
+      }
+      
+      .phone-pictire {
+        position: relative;
+        display: inline-block;
+        border-radius: 3%;
+        box-shadow: gray 0 0 10px;
+        height: 400px;
+      }
+      
+      .phone-text {
+        position: relative;
+        display: inline-block;
+        font-size: 40px;
+        word-break: break-word;
+      }
+  
+      
+      .services-section {
+        background: white;
+        padding: 30px;
+      }
+      
+      .services-section h1 {
+        position: relative;
+        display: inline-block;
+        left: 30%;
+        font-size: 40px;
+      }
+      
+      .services-section {
+        
+      }
+        
+      .services-section img{
+        position: relative;
+        display: inline-block;
+        border-radius: 5%;
+        box-shadow: gray 0 0 10px;
+      }
+ 
+      
+      .contact-section {
+        background: #FDF5E6;
+        padding: 20px;
+      }
+      
+      .contact-section h1 {
+        position: relative;
+        display: inline-block;
+        left: 30%;
+        font-size: 40px;
+      }
+        
+   .contact-box {
+     width: 100%;
+     background-color: #fdf5e6;
+     box-shadow; 0 0 20px 0  #000;
+     bottom: -1700px;
+     left: -1%;
+     transform: translate (-50%,-50%);
+     position: absolute;
+   }
+   
+   form {
+     margin: 35px;
+   }
+        
+   .contact-text {
+     position: relative;
+     display: inline-block;
+     left: 7%;
+     color: green;
+   }
+        
+   .your-name {
+     width: 100%;
+     height: 30px;
+   }
+   
+   .phone-number {
+     width: 100%;
+     height: 30px;
+   }
+   
+   .email-adderss {
+     width: 100%;
+     height: 30px;
+   }
+   
+   .textarea-field {
+     height: 150px;
+     width: 100%;
+     padding-top: 10px;
+   }
+   
+   .btn {
+     position: relative;
+     display: inline-block;
+     border-radius: 970px;
+     color: #fff;
+     margin-top: 18px;
+     padding: 10px;
+     background-color: #008000;
+     font-size: 12px;
+     border: none;
+     cursor: pointer;
+     width: 100%;
+   }
+      
+   .btn:hover {
+     background: #90EE90;         
+   }
+      
+  footer {
+     background: #D3D3D3;
+     padding: 20px;
+  }
+        
+      @media only screen and (min-width: 1194px) {
+      header {
+        background: #fdf5e6;
+        height: 50px;
+        padding: 20px;
+        text-align: center;
+        font-size: 30px;
+      }
+      
+      ul {
+        margin: 0;
+        padding: 20px;
+        list-style-type: none;
+      }
+      
+      li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+          
+      nav ul li a {
+        color: #000;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+          
+      nav ul li a:hover {
+        color: green;          
+      }
+
+       
+      .first-image {
+        background-image: url("Mint logo2.jpg") no-repeat;
+        background-size: 100%;
+        background-position: center;
+        height: 600px;
+      }
+        
+      .about-phone {
+        display: none;
+      }
+
+      .about.desktop {
+        display: none;
+      }
+
+               
+      .about-ipad {
+        background: #FDF5E6;
+        padding: 20px;
+        display: block;
+      }
+      
+      .ipad-header {
+        position: relative;
+        display: inline-block;
+        left: 43%;
+        font-size: 40px;
+      }
+      
+      .ipad-picture {
+        position: relative;
+        display: inline-block;
+        height: 300px;
+        width: 420px;
+        border-radius: 3%;
+        box-shadow: gray 0 0 10px;
+        left: 80px;
+      }
+      
+      .ipad-text {
+        position: relative;
+        display: inline-block;
+        font-size: 20px;
+        left: 150px;
+        top: -30px;
+        word-break: break-word;
+      }
+       
+      .services-section {
+        background: white;
+        padding: 30px;
+      }
+      
+      .services-section h1 {
+        position: relative;
+        display: inline-block;
+        left: 43%;
+        font-size: 40px;
+      }
+      
+      .services-section {
+
+      }
+        
+      .services-section img{
+        position: relative;
+        display: inline-block;
+        height: 350px;
+        width: 400px;
+        border-radius: 5%;
+        box-shadow: gray 0 0 10px;
+      }
+
+      .image4 {
+        position: relative;
+        display: inline-block;
+        left: 100px;
+        top: -10px;
+      }
+          
+          
+      .image5 {
+        position: relative;
+        display: inline-block;
+        left: 200px;
+        top: -10px;
+      }
+          
+      .image6 {
+        position: relative;
+        display: inline-block;
+        bottom: -10px;
+        left: 350px;
+      }
+       
+      .contact-section {
+        background: #FDF5E6;
+        padding: 20px;
+      }
+      
+      .contact-section h1 {
+        position: relative;
+        display: inline-block;
+        left: 43%;
+        top : -50px;
+        font-size: 40px;
+      }
+        
+   .contact-box {
+     width: 100%;
+     background-color: #fdf5e6;
+     box-shadow; 0 0 20px 0  #000;
+     bottom: -1700px;
+     left: -1%;
+     transform: translate (-50%,-50%);
+     position: absolute;
+   }
+   
+   form {
+     margin: 35px;
+   }
+        
+   .contact-text {
+     position: relative;
+     display: inline-block;
+     left: 23%;
+     color: green;
+   }
+        
+   .your-name {
+     width: 100%;
+     height: 30px;
+   }
+   
+   .phone-number {
+     width: 100%;
+     height: 30px;
+   }
+   
+   .email-adderss {
+     width: 100%;
+     height: 30px;
+   }
+   
+   .textarea-field {
+     height: 150px;
+     width: 100%;
+     padding-top: 10px;
+   }
+   
+   .btn {
+     position: relative;
+     display: inline-block;
+     border-radius: 970px;
+     color: #fff;
+     margin-top: 18px;
+     padding: 10px;
+     background-color: #008000;
+     font-size: 12px;
+     border: none;
+     cursor: pointer;
+     width: 100%;
+   }
+        
+   .btn:hover {
+     background: #90EE90;         
+   }
+       
+   footer {
+     background: #D3D3D3;
+     padding: 20px;
+   }
+      }
+        
+         
+        @media only screen and (min-width:1280px ) {
+      header {
+        background: #fdf5e6;
+        height: 50px;
+        padding: 20px;
+        text-align: center;
+        font-size: 30px;
+      }
+      
+      ul {
+        margin: 0;
+        padding: 20px;
+        list-style-type: none;
+      }
+      
+      li {
+        display: inline-block;
+        margin-right: 20px;
+      }
+          
+      nav ul li a {
+        color: #000;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+          
+      nav ul li a:hover {
+        color: green;          
+      }
+        
+      .first-image {
+        background-image: url("Mint logo2.jpg") no-repeat;
+        background-size: 100%;
+        background-position: center;
+        height: 700px;
+      }
+          
+      .about-ipad {
+        display: none;
+      }
+
+      .about-phone {
+        display: none;
+      }
+
+      .about-desktop {
+        background: #FDF5E6;
+        padding: 20px;
+        display: block;
+      }
+      
+      .desktop-header {
+        position: relative;
+        display: inline-block;
+        left: 43%;
+        font-size: 40px;
+      }
+      
+      .desktop-picture {
+        position: relative;
+        display: inline-block;
+        height: 300px;
+        width: 420px;
+        border-radius: 3%;
+        box-shadow: gray 0 0 10px;
+        left: 100px;
+      }
+      
+      .desktop-text {
+        position: relative;
+        display: inline-block;
+        font-size: 20px;
+        left: 180px;
+        top: -90px;
+        word-break: break-word;
+      }
+      
+       
+      .services-section {
+        background: white;
+        padding: 30px;
+      }
+      
+      .services-section h1 {
+        position: relative;
+        display: inline-block;
+        left: 43%;
+        font-size: 40px;
+      }
+      
+      .services-section {
+
+      }
+        
+      .services-section img{
+        position: relative;
+        display: inline-block;
+        height: 400px;
+        width: 400px;
+        border-radius: 5%;
+        box-shadow: gray 0 0 10px;
+      }
+
+      .image4 {
+        position: relative;
+        display: inline-block;
+        left: 10px;
+        top: -10px;
+      }
+          
+      .image5 {
+        position: relative;
+        display: inline-block;
+        left: 50px;
+        top: -10px;
+      }
+          
+      .image6 {
+        position: relative;
+        display: inline-block;
+        top: -10px;
+        left: 90px;
+      }
+       
+      .contact-section {
+        background: #FDF5E6;
+        padding: 20px;
+      }
+      
+      .contact-section h1 {
+        position: relative;
+        display: inline-block;
+        left: 43%;
+        top : -50px;
+        font-size: 40px;
+      }
+        
+   .contact-box {
+     width: 100%;
+     background-color: #fdf5e6;
+     box-shadow; 0 0 20px 0  #000;
+     bottom: -1700px;
+     left: -1%;
+     transform: translate (-50%,-50%);
+     position: absolute;
+   }
+   
+   form {
+     margin: 35px;
+   }
+        
+   .contact-text {
+     position: relative;
+     display: inline-block;
+     left: 25%;
+     color: green;
+   }
+        
+   .your-name {
+     width: 100%;
+     height: 30px;
+   }
+   
+   .phone-number {
+     width: 100%;
+     height: 30px;
+   }
+   
+   .email-adderss {
+     width: 100%;
+     height: 30px;
+   }
+   
+   .textarea-field {
+     height: 150px;
+     width: 100%;
+     padding-top: 10px;
+     box-shadow: gray 0 0 10px;
+   }
+   
+   .btn {
+     position: relative;
+     display: inline-block;
+     border-radius: 970px;
+     color: #fff;
+     margin-top: 18px;
+     padding: 10px;
+     background-color: #008000;
+     font-size: 15px;
+     border: none;
+     cursor: pointer;
+     width: 100%;
+   }
+   
+   .btn:hover {
+     background: #90EE90;         
+   }
+  
+   footer {
+     background: #D3D3D3;
+     padding: 20px;
+   }       
+      }
+        }
+    </style>
+    <!--<link rel="stylesheet" href="style.css"/>-->
+  </head>
+  <body>
+        <header>
+           <nav>
+              <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#aboutus">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contactus">Contact</a></li>
+              </ul>
+          </nav>
+    </header>
+      <section class="first-image">
+        <img src="Mint logo2.jpg" class="first-image" height="450" width="100%" id="Home"   />
+      </section>
+      <section id="aboutus">
+      <section class="about-phone">
+         <h1 id="aboutus" class="phone-header">About us</h1>
+          <br>
+           <img src="Roofing.jpg" class="phone-pictire" height="500" width="100%" />
+             <p style="font-size: 30px;" clas="phone-text">Mint Roofing and Construction LLC is a Licensed & insured locally owned roofing and construction business with over 70 years of experience. We are a family owned business in Florida ready to meet your needs anytime. Mint Roofing and Construction offers top-notch residential and commercial roofing services around the area. We specialize in roof repairs, installation, and  replacement. The types of roofs we do are Asphalt, Tile, and Sheet metal. Our team is dedicated to providing reliable, quality services with a focus on customer satisfaction. With efficient and timely communications and proper installation techniques. Contact us today for a free Assighment</p>
+      </section>    
+      <section class="about-ipad">
+         <h1 class="ipad-header">About us</h1>
+    <br>
+  <img src="Roofing.jpg" class="ipad-picture" height="500" width="100%"  />
+   <p class="ipad-text">Mint Roofing and Construction LLC is a Licensed & insured<br>locally owned roofing and construction business with over<br>70 years of experience. We are a family owned business<br>in Florida ready to meet your needs anytime. Mint Roofing <br>and Construction offers top-notch residential and commercial<br>roofing services around the area. We specialize in roof repairs,<br> installation, and  replacement. The types of roofs we do are<br>Asphalt, Tile, and Sheet metal. Our team is dedicated to<br>providing reliable, quality services with a focus on customer<br>satisfaction. With efficient and timely communications and<br>proper installation techniques. Contact us today for a free<br> Assighment</p>
+        </section>    
+    </section>
+        <section class="about-desktop">
+    <h1 class="desktop-header">About us</h1>
+    <br>
+  <img src="Roofing.jpg" class="desktop-picture" height="500" width="100%" />
+   <p class="desktop-text">Mint Roofing and Construction LLC is a Licensed & insured locally owned roofing<br>and construction business with over 70 years of experience. We are a family owned<br>business in Florida ready to meet your needs anytime.Mint Roofing and<br> Construction offers top-notch residential and commercial roofing services around<br>the area. We specialize in roof repairs, installation, and  replacement. The types of<br>roofs we do are Asphalt, Tile, and Sheet metal. Our team is dedicated to providing<br>reliable, quality services with a focus on customer satisfaction. With efficient and<br>timely communications and proper installation techniques. Contact us today for a<br>free Assighment</p>
+        </section>
+        <section class="services-section">
+    <h1 id="services" class="services">Services</h1>
+    <br>
+    <br>
+    <img src="Residential.jpg" class="image4" height="400" width="100%">
+    <img src="Painting.jpg" class="image5" height="400" width="100%">
+    <img src="Construction.jpg" class="image6" height="400" width="100%">
+        </section>
+    
+<section class="contact-section">
+          <h1 id="contactus" class="contact-header">
+            Contact
+          </h1>
+   
+          <p class="contact-text">
+            Call +1-321-330-6483 for more imformation<br>or email - contact@mintroofingllc.com
+          </p>
+          
+  <form target="_blank" action="https://formsubmit.co/contact@mintroofingllc.com" method="POST">
+  <input type="hidden" name="_next" value="https://yourdomain.co/thankyou.html">
+  <input type="hidden" name="_subject" value="New submission from the website">
+<input type="hidden" name="_captcha" value="false">
+    <div class="form-group">
+      <div class="form-row">
+        <div class="col">
+          <input type="text" name="name" class="input-field your-name" placeholder="Full Name" required>
+          <br>
+           <br>
+        </div>
+        
+        <div class="col">
+          <input type="text" class="input-field phone-number" placeholder="Phone" requierd>
+           <br>
+            <br> 
+        </div>
+        <div class="col">
+          <input type="email" name="email" class="input-field email-adderss" placeholder="Email Address" required>
+           <br>
+            <br>
+        </div>
+      </div>
+    </div>
+    <div class="form-group">
+      <textarea placeholder="Your Message" class="input-field textarea-field" name="message" rows="10" required></textarea>
+       <br>
+       <br>
+    </div>
+    <button type="submit" class="btn btn-lg btn-dark btn-block">Contact US</button>
+  </form>
+</section>
+        <footer>
+          <p class="bottom-text1">
+         Mint Roofing and Construction
+       </p>
+       <p class="bottom-text2">
+         This website was created by Caleb Bolivar
+       </p>
+        </footer>          
+  </body>
+</html>
